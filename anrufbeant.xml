@@ -2,6 +2,12 @@
     <Dial>
         <Number>+1234567890</Number> <!-- Die Nummer, die du anrufen willst -->
     </Dial>
-    <Pause length="5" /> <!-- Pause für 5 Sekunden -->
-    <Say voice="alice">Wenn Sie das hören, dann nerven Sie.</Say> <!-- Nachricht abspielen -->
+    <Pause length="5" /> <!-- Warte 5 Sekunden -->
+    <Say voice="alice">Wenn Sie das hören, dann nerven Sie.</Say> <!-- Erste Nachricht -->
+
+    <Pause length="5" /> <!-- Warte weitere 5 Sekunden -->
+    <Say voice="alice">Hören Sie schlecht? Sie nerven, sonst hätte ich schon abgehoben.</Say> <!-- Zweite Nachricht -->
+
+    <Pause length="10" /> <!-- Warte 10 Sekunden -->
+    <Say voice="alice" gender="female" style="robot">Zero Klick Angriff wird ausgeführt.</Say> <!-- Dritte Nachricht mit Roboterstimme -->
 </Response>
